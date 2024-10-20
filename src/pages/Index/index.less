@@ -1,0 +1,86 @@
+/* 设置页面的整体布局和配色 */
+.index-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #A0D9D9, #CAF7E3);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* 欢迎文字部分 */
+  .welcome-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-text {
+    font-size: 2.5rem;
+    color: #2B7A78;
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  .subtext {
+    font-size: 1.2rem;
+    color: #3AAFA9;
+    margin-top: 10px;
+  }
+  
+  /* 登录按钮的样式和动画 */
+  .login-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3AAFA9;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-link:hover {
+    background-color: #2B7A78;
+    transform: scale(1.05);
+  }
+  
+  .button-text {
+    font-weight: bold;
+  }
+  
+  /* 添加页面过渡动画 */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* 响应式设计，适应手机端 */
+  @media (max-width: 768px) {
+    .welcome-text {
+      font-size: 2rem;
+    }
+  
+    .login-link {
+      font-size: 1.2rem;
+      padding: 8px 16px;
+    }
+  }
+
+.fade-in-link {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
