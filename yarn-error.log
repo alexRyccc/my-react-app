@@ -41,11 +41,11 @@ npm manifest:
       "publishConfig": {
           "registry": "https://registry.npmjs.org/"
       },
-      "repository": "https://github.com/fzz14hao/my-react-app",
+      "repository": "https://github.com/alexRyccc/Coc-React",
       "keywords": [
           "react 脚手架"
       ],
-      "author": "fzz14hao",
+      "author": "sigma",
       "license": "ISC",
       "devDependencies": {
           "@babel/core": "^7.7.4",

@@ -15,7 +15,7 @@ react +webpack +router + redux +ssr
 
 ## 使用项目
 ```
-git clone https://github.com/fzz14hao/my-react-app.git
+git clone https://github.com/alexRyccc/Coc-React.git
 
 ```
 
